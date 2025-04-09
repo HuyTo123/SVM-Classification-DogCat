@@ -1,0 +1,4 @@
+
+    except Exception as e:
+        print(f"Lỗi khi tải mô hình feature extractor: {e}")
+        exit()
