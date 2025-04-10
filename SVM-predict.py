@@ -122,14 +122,14 @@ if __name__ == '__main__':
         exit()
 
     # --- 6. Đánh giá Kết quả Dự đoán ---
-    print("\nĐánh giá kết quả dự đoán:")
-    try:
-        accuracy = accuracy_score(y_test, y_pred)
-        print(f"Độ chính xác (Accuracy): {accuracy * 100:.2f}%")
-        print("\nClassification Report:")
-        print(classification_report(y_test, y_pred, target_names=class_names)) 
-    except Exception as e:
-        print(f"Lỗi khi đánh giá kết quả: {e}")
+    # print("\nĐánh giá kết quả dự đoán:")
+    # try:
+    #     accuracy = accuracy_score(y_test, y_pred)
+    #     print(f"Độ chính xác (Accuracy): {accuracy * 100:.2f}%")
+    #     print("\nClassification Report:")
+    #     print(classification_report(y_test, y_pred, target_names=class_names)) 
+    # except Exception as e:
+    #     print(f"Lỗi khi đánh giá kết quả: {e}")
         
     # --- 7. Hiển thị một vài dự đoán mẫu ---
     print("\nHiển thị một vài dự đoán mẫu...")
